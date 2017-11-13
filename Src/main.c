@@ -61,17 +61,44 @@
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
+#define MAX_BUF_SIZE 256
 
+
+typedef struct displayFloatToInt_s {
+  int8_t sign; /* 0 means positive, 1 means negative*/
+  uint32_t  out_int;
+  uint32_t  out_dec;
+} displayFloatToInt_t;
+static char dataOut[MAX_BUF_SIZE];
+
+static void *HTS221_H_0_handle  = NULL;
+static void *HTS221_T_0_handle  = NULL;
+static void *LPS22HB_P_0_handle  = NULL;
+static void *LPS22HB_T_0_handle  = NULL;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 void MX_FREERTOS_Init(void);
 
+static void initializeAllSensors( void );
+static void floatToInt(float in, displayFloatToInt_t *out_value, int32_t dec_prec);
+static void RTC_Handler( void );
+static void Humidity_Sensor_Handler( void *handle );
+static void Temperature_Sensor_Handler( void *handle );
+static void Pressure_Sensor_Handler( void *handle );
+
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
 
+static void initializeAllSensors( void );
+
+static void floatToInt(float in, displayFloatToInt_t *out_value, int32_t dec_prec);
+
+static void Humidity_Sensor_Handler( void *handle );
+static void Temperature_Sensor_Handler( void *handle );
+static void Pressure_Sensor_Handler( void *handle );
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
@@ -127,6 +154,11 @@ int main(void)
   /* USER CODE BEGIN 3 */
 
   }
+  RTC_Handler();
+  Humidity_Sensor_Handler( HTS221_H_0_handle );
+  Temperature_Sensor_Handler( HTS221_T_0_handle );
+  Temperature_Sensor_Handler( LPS22HB_T_0_handle );
+  Pressure_Sensor_Handler( LPS22HB_P_0_handle );
   /* USER CODE END 3 */
 
 }

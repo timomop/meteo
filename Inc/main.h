@@ -51,6 +51,8 @@
   /* Includes ------------------------------------------------------------------*/
 
 /* USER CODE BEGIN Includes */
+
+#include "x_nucleo_iks01a2.h"
 #include "x_nucleo_iks01a2_humidity.h"
 #include "x_nucleo_iks01a2_pressure.h"
 #include "x_nucleo_iks01a2_temperature.h"

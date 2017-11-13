@@ -10,6 +10,23 @@ Src/system_stm32l4xx.o: ../Src/system_stm32l4xx.c \
  /home/imerir/Bureau/tp2/ex/meteo/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  /home/imerir/Bureau/tp2/ex/meteo/Inc/stm32l4xx_hal_conf.h \
  /home/imerir/Bureau/tp2/ex/meteo/Inc/main.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/accelerometer.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/sensor.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/component.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/gyroscope.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/magnetometer.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/humidity.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/temperature.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/pressure.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_humidity.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/hts221/HTS221_Driver_HL.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/hts221/HTS221_Driver.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/lps22hb/LPS22HB_Driver_HL.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/lps22hb/LPS22HB_Driver.h \
+ /home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_temperature.h \
  /home/imerir/Bureau/tp2/ex/meteo/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
  /home/imerir/Bureau/tp2/ex/meteo/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
  /home/imerir/Bureau/tp2/ex/meteo/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
@@ -53,6 +70,40 @@ Src/system_stm32l4xx.o: ../Src/system_stm32l4xx.c \
 /home/imerir/Bureau/tp2/ex/meteo/Inc/stm32l4xx_hal_conf.h:
 
 /home/imerir/Bureau/tp2/ex/meteo/Inc/main.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/accelerometer.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/sensor.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/component.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/gyroscope.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/magnetometer.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/humidity.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/temperature.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/Common/pressure.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_humidity.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/hts221/HTS221_Driver_HL.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/hts221/HTS221_Driver.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_pressure.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/lps22hb/LPS22HB_Driver_HL.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/Components/lps22hb/LPS22HB_Driver.h:
+
+/home/imerir/Bureau/tp2/ex/meteo/Drivers/BSP/X_NUCLEO_IKS01A2/x_nucleo_iks01a2_temperature.h:
 
 /home/imerir/Bureau/tp2/ex/meteo/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
 
